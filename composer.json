@@ -1,0 +1,38 @@
+{
+    "name": "havefnubb/servinfo-module",
+    "type": "jelix-module",
+    "description": "Jelix module to display system data about the current server.",
+    "keywords": ["admin", "module", "server"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "FoxMask",
+            "email": "foxmask@foxmask.net",
+            "homepage": "http://foxmask.net",
+            "role": "Developer"
+        },
+        {
+            "name": "Laurent Jouanneau",
+            "email": "laurent@jelix.org",
+            "homepage": "https://jelix.org",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=5.6"
+    },
+    "archive": {
+        "exclude": ["/test"]
+    },
+    "extra": {
+        "jelix" : {
+            "modules" : [
+                "servinfo/"
+            ]
+        },
+        "branch-alias": {
+            "dev-master": "2.0.x-dev"
+        }
+    },
+    "minimum-stability": "stable"
+}
